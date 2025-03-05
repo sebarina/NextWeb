@@ -7,7 +7,7 @@ import Link from "next/link";
 export default async function Page ({
   params,
 }: {
-  params: Promise<{ cardId: int }>
+  params: Promise<{ cardId: number }>
 }) {
   const { cardId } = await params
 
