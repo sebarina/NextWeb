@@ -23,6 +23,7 @@
     "simplebar-react": "3.2.5"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.8",
     "@types/node": "20.17.23",
     "@types/react": "18.3.18",
     "@types/react-dom": "18",
