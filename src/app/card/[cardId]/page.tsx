@@ -4,9 +4,7 @@ import BlogCardsData from "@/utils/data/BlogCardsData"
 import Link from "next/link";
 
 
-export const config = {
-  runtime: 'edge', // Specifies that this route should use the Edge Runtime
-};
+export const runtime = 'edge'; // Directly export the runtime
 
 export default async function Page ({
   params,
